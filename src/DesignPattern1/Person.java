@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * This code use Composite Design Pattern
+ */
 public class Person {
     protected String name;
     protected String sex;
