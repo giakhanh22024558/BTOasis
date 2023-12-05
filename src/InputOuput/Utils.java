@@ -1,3 +1,5 @@
+package InputOuput;
+
 import java.io.*;
 import java.net.URL;
 
@@ -35,6 +37,7 @@ public class Utils {
         try(FileWriter fileWriter = new FileWriter("output.txt", true);
         PrintWriter pw = new PrintWriter(fileWriter)) {
             pw.println("new content!"); // add this string to file
+            pw.println("more new content!!");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
